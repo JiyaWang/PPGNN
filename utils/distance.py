@@ -1,0 +1,9 @@
+import torch
+
+def pairwise_euclidean_distances(x, dim=-1):
+    dist = torch.cdist(x,x)**2
+    return dist
+
+def                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     anchor_node_distances(x_vec, anchor_vec):
+    dist = torch.cdist(x_vec, anchor_vec)**2
+    return dist
